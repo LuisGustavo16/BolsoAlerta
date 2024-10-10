@@ -1,0 +1,35 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #E12B20;
+    --secondary: #FFCB69;
+    --third: #E8E8E8;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.divCabecalho {
+    background-color: var(--primary);
+    display: flex;
+    height: 115px;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.logo {
+    height: 100px;
+    width: 98px;
+}
+
+.textoCabecalho {
+    padding-left: 2rem;
+    font-family: 'Hammersmith One';
+    color: var(--white);
+    font-weight: 400;
+    width: 20rem;
+    font-size: 1.7rem;
+    text-align: center;
+}
